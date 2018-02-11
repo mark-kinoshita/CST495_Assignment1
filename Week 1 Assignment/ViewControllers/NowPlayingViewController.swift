@@ -68,6 +68,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         let detailViewController = segue.destination as! DetailViewController
         detailViewController.movie = movie
     }
+     
 }
     
 

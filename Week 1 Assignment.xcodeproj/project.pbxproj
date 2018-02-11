@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		951040C52028F42700575461 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951040C42028F42700575461 /* DetailViewController.swift */; };
+		951717F520290FCD00CF844C /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951717F420290FCD00CF844C /* PosterCell.swift */; };
+		951717F72029100F00CF844C /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951717F62029100F00CF844C /* SuperheroViewController.swift */; };
 		9517CA56201FD4500059E99F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9517CA55201FD4500059E99F /* AppDelegate.swift */; };
 		9517CA5B201FD4500059E99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9517CA59201FD4500059E99F /* Main.storyboard */; };
 		9517CA5D201FD4500059E99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9517CA5C201FD4500059E99F /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 		676965893B975622B10F9568 /* Pods_Week_1_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week_1_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3A81816C4AA266AD4627CF /* Pods-Week 1 Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week 1 Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Week 1 Assignment/Pods-Week 1 Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		951040C42028F42700575461 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		951717F420290FCD00CF844C /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		951717F62029100F00CF844C /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
 		9517CA52201FD4500059E99F /* Week 1 Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 1 Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9517CA55201FD4500059E99F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9517CA5A201FD4500059E99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				95D0E7AB20265DDC00C1AD47 /* MovieCell.swift */,
+				951717F420290FCD00CF844C /* PosterCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -66,6 +71,7 @@
 			children = (
 				9517CA67201FDC190059E99F /* NowPlayingViewController.swift */,
 				951040C42028F42700575461 /* DetailViewController.swift */,
+				951717F62029100F00CF844C /* SuperheroViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -242,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9517CA68201FDC190059E99F /* NowPlayingViewController.swift in Sources */,
+				951717F520290FCD00CF844C /* PosterCell.swift in Sources */,
+				951717F72029100F00CF844C /* SuperheroViewController.swift in Sources */,
 				9517CA56201FD4500059E99F /* AppDelegate.swift in Sources */,
 				95D0E7AC20265DDC00C1AD47 /* MovieCell.swift in Sources */,
 				951040C52028F42700575461 /* DetailViewController.swift in Sources */,
